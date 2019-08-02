@@ -2,7 +2,9 @@
 /PasswordGenerator/pass.txt
 /PasswordGenerator/PassHistory.txt
 /PasswordGenerator/dist
+/PasswordGenerator/nbproject/private
+/PasswordGenerator/build
 
-.jar
-.class
+*.jar
+*.class
 
