@@ -6,7 +6,9 @@ public class Password {
     String lettersLowerCase = "qwertyuiopasdfghjklzxcvbnm";
     String nums = "1234567890";
     String symbols = "!@#$%^&*)(_-=+";
-    String mixeSymbs = lettersUpperCase + lettersLowerCase + nums + symbols;    String result;    
+    String mixeSymbs = lettersUpperCase + lettersLowerCase + nums + symbols;
+    String result;    
+    
     int passwordLength;
     int count = 0;
     char[] arrPassword;
