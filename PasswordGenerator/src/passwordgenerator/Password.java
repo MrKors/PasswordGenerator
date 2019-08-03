@@ -6,7 +6,7 @@ public class Password {
     String lettersLowerCase = "qwertyuiopasdfghjklzxcvbnm";
     String nums = "1234567890";
     String symbols = "!@#$%^&*)(_-=+";
-    String mixe = lettersUpperCase + lettersLowerCase + nums + symbols;
+    String mixeSymbs = lettersUpperCase + lettersLowerCase + nums + symbols;
     
     int passwordLength;
     int count = 0;
@@ -86,7 +86,7 @@ public class Password {
                         break;
                     case 5:
                         System.out.println("Mixed password");
-                        getPassword(mixe);
+                        getPassword(mixeSymbs);
                         break;
                     default:
                         System.out.println("You enterd an invalid number, please look at the expression in brackets!");
